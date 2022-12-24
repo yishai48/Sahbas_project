@@ -1,3 +1,4 @@
+// Signup component
 import React, { useState } from 'react';
 import './Login.css';
 
@@ -23,6 +24,7 @@ async function SignupUser(credentials) {
 
 }
 
+//Signup function
 export default function Signup() {
   const [username, setUserName] = useState('');
   const [password, setPassword] = useState('');

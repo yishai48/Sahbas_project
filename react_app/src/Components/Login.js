@@ -1,3 +1,5 @@
+// Login component
+
 import React, { useState } from 'react';
 import './Login.css';
 import usetoken from '../utils/usetoken';
@@ -23,7 +25,7 @@ async function loginUser(credentials) {
       });
   })
 }
-
+//Login function
 export default function Login() {
   const [username, setUserName] = useState('');
   const [password, setPassword] = useState();
